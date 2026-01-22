@@ -2,161 +2,189 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shaan Glazer – Resume</title>
+    <title>Shaan Glazer – Personal Website</title>
+
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.6;
             max-width: 900px;
             margin: 40px auto;
+            background-color: #fafafa;
             color: #000;
         }
+
         h1, h2 {
             border-bottom: 2px solid #000;
             padding-bottom: 5px;
         }
+
         h1 {
             margin-bottom: 5px;
         }
-        .contact {
+
+        nav {
+            border-bottom: 2px solid #000;
             margin-bottom: 30px;
+            padding-bottom: 10px;
         }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 6px;
+        }
+
         ul {
             margin-top: 5px;
         }
-        section {
-            margin-bottom: 25px;
+
+        .contact {
+            margin-bottom: 30px;
         }
     </style>
 </head>
+
 <body>
 
-    <header>
-        <h1>Shaan Glazer</h1>
-        <div class="contact">
-            <p>
-                605 Park Avenue, Apt. 14A<br>
-                New York, NY 10065<br>
-                (929) 599-7094<br>
-                <a href="mailto:sglazer@browning.edu">sglazer@browning.edu</a>
-            </p>
-        </div>
-    </header>
+<nav>
+    <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <section>
-        <h2>Education</h2>
-        <p><strong>The Browning School</strong> – New York, NY<br>
-        Expected Graduation: June 2028</p>
-
-        <p><strong>Academic Strengths:</strong><br>
-        English, Mathematics, Chemistry, Science, Latin, History</p>
-
-        <p><strong>Honors & Awards:</strong></p>
-        <ul>
-            <li>Latin Award</li>
-            <li>Most Improved Player – Track & Field</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Interests</h2>
+<header>
+    <h1>Shaan Glazer</h1>
+    <div class="contact">
         <p>
-            Law, government, and current events; business and economics; running and outdoor activity;
-            community service; mentoring; academic support for younger students.
+            Email:
+            <a href="mailto:sglazer@browning.edu">sglazer@browning.edu</a>
         </p>
-    </section>
+    </div>
+</header>
 
-    <section>
-        <h2>Skills</h2>
-        <p><strong>Academic:</strong> Analytical reading and writing, clear explanation of concepts, research and organization, critical thinking</p>
-        <p><strong>Communication:</strong> Public speaking, collaborative discussion, mentoring and peer support</p>
-        <p><strong>Leadership:</strong> Team participation, reliability, time management, project follow-through, project management</p>
-        <p><strong>Athletics:</strong> Endurance running, track training, fitness planning</p>
-        <p><strong>Technology:</strong> Google Workspace, Microsoft Office, academic research tools</p>
-    </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a student at The Browning School with a strong interest in law,
+        government, and current events. I enjoy learning how history, policy,
+        and economics shape the world and influence people’s lives.
+    </p>
+    <p>
+        Outside of the classroom, I am involved in athletics, community service,
+        and academic programs that encourage critical thinking and collaboration.
+        I value responsibility, curiosity, and long-term commitment in both
+        academic and extracurricular settings.
+    </p>
+</section>
 
-    <section>
-        <h2>Experience & Activities</h2>
+<section id="resume">
+    <h2>Education</h2>
+    <p><strong>The Browning School</strong> – New York, NY<br>
+    Expected Graduation: June 2028</p>
 
-        <p><strong>Time for Kids (TFK) Reporter</strong></p>
-        <ul>
-            <li>Selected to participate in a national journalism program focused on current events and youth reporting</li>
-            <li>Conducted research, analyzed news topics, and produced written responses to real-world issues</li>
-            <li>Strengthened skills in evidence-based writing and critical analysis</li>
-        </ul>
+    <p><strong>Academic Strengths:</strong><br>
+    English, Mathematics, Chemistry, Science, Latin, History</p>
 
-        <p><strong>Oxbridge Academic Summer Programs (2025)</strong></p>
-        <ul>
-            <li>Participated in an advanced academic program emphasizing writing, discussion, and independent thought</li>
-            <li>Engaged in seminar-style classes and long-form analytical assignments</li>
-        </ul>
+    <p><strong>Honors & Awards:</strong></p>
+    <ul>
+        <li>Latin Award</li>
+        <li>Most Improved Player – Track & Field</li>
+    </ul>
+</section>
 
-        <p><strong>Camp Lanakila</strong> – Camper, Leadership Track</p>
-        <ul>
-            <li>Participated in outdoor education, leadership development, and team-based activities</li>
-            <li>Built resilience, responsibility, and collaborative problem-solving skills</li>
-        </ul>
+<section id="skills">
+    <h2>Skills</h2>
+    <p><strong>Academic:</strong> Analytical reading and writing, research and organization, critical thinking</p>
+    <p><strong>Communication:</strong> Public speaking, collaborative discussion, mentoring and peer support</p>
+    <p><strong>Leadership:</strong> Reliability, time management, project follow-through</p>
+    <p><strong>Athletics:</strong> Endurance running, track training, fitness planning</p>
+    <p><strong>Technology:</strong> Google Workspace, Microsoft Office, academic research tools</p>
+</section>
 
-        <p><strong>Camp Lanakila Bridger Program (2026)</strong></p>
-        <ul>
-            <li>Selected for advanced leadership training focused on mentorship and community responsibility</li>
-        </ul>
+<section>
+    <h2>Experience & Activities</h2>
 
-        <p><strong>Browning Babysitting Program</strong></p>
-        <ul>
-            <li>Provide academic support and supervision for younger students</li>
-            <li>Known for reliability, strong communication with parents, and positive engagement with children</li>
-        </ul>
+    <p><strong>Time for Kids (TFK) Reporter</strong></p>
+    <ul>
+        <li>Selected for a national journalism program focused on current events</li>
+        <li>Conducted research and wrote evidence-based responses to news topics</li>
+    </ul>
 
-        <p><strong>Athletics – The Browning School</strong></p>
-        <ul>
-            <li>Winter Running Club, Spring Track Team</li>
-            <li>Recognized as Most Improved Player</li>
-            <li>Demonstrated commitment, discipline, and goal-driven improvement</li>
-        </ul>
-    </section>
+    <p><strong>Oxbridge Academic Summer Programs (2025)</strong></p>
+    <ul>
+        <li>Participated in seminar-style classes and analytical writing assignments</li>
+    </ul>
 
-    <section>
-        <h2>Community Service</h2>
+    <p><strong>Camp Lanakila</strong> – Leadership Track</p>
+    <ul>
+        <li>Developed teamwork, responsibility, and problem-solving skills</li>
+    </ul>
 
-        <p><strong>Grassroots Grocery Organization</strong> – Volunteer</p>
-        <ul>
-            <li>Assist in sorting, packing, and distributing food to families experiencing food insecurity</li>
-        </ul>
+    <p><strong>Browning Babysitting Program</strong></p>
+    <ul>
+        <li>Provided academic support and supervision for younger students</li>
+    </ul>
 
-        <p><strong>Midnight Run</strong> – Volunteer</p>
-        <ul>
-            <li>Help prepare and deliver food and supplies to unhoused individuals in New York City</li>
-        </ul>
+    <p><strong>Athletics – The Browning School</strong></p>
+    <ul>
+        <li>Winter Running Club, Spring Track Team</li>
+        <li>Recognized as Most Improved Player</li>
+    </ul>
+</section>
 
-        <p><strong>West Side Campaign Against Hunger</strong> – Volunteer</p>
-        <ul>
-            <li>Support food distribution operations and community outreach efforts</li>
-        </ul>
+<section>
+    <h2>Community Service</h2>
 
-        <p>
-            Volunteering has become a long-term commitment and a central part of my personal values.
-        </p>
-    </section>
+    <ul>
+        <li>Grassroots Grocery Organization – Food distribution volunteer</li>
+        <li>Midnight Run – Prepared and delivered supplies to unhoused individuals</li>
+        <li>West Side Campaign Against Hunger – Community outreach support</li>
+    </ul>
 
-    <section>
-        <h2>Leadership</h2>
-        <p><strong>Gilder Lehrman Institute of American History</strong> – Student Board Member</p>
-        <ul>
-            <li>Participate in student leadership initiatives connected to historical scholarship and civic engagement</li>
-        </ul>
-    </section>
+    <p>
+        Community service is an important part of my values and long-term
+        commitment to helping others.
+    </p>
+</section>
 
-    <section>
-        <h2>Personal Statement</h2>
-        <p>
-            Beyond academics, I am deeply interested in law, government, and current events, and I enjoy
-            understanding how systems of power, policy, and business affect people’s lives. I am confident
-            helping others with schoolwork, explaining concepts clearly, and supporting younger students
-            with organization and study habits. I approach both academics and service with discipline,
-            curiosity, and long-term commitment.
-        </p>
-    </section>
+<section>
+    <h2>Leadership</h2>
+    <p><strong>Gilder Lehrman Institute of American History</strong> – Student Board Member</p>
+    <ul>
+        <li>Participate in leadership initiatives connected to civic engagement</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>
+        Email:
+        <a href="mailto:sglazer@browning.edu">sglazer@browning.edu</a>
+    </p>
+</section>
 
 </body>
 </html>
+
